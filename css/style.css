@@ -1,0 +1,23 @@
+body{
+  background-color: #00ced1;
+}
+
+#main-area{
+  padding: 25px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr;
+}
+
+#shouts {
+  background-color: #000000;
+  max-height: 80vh;
+  overflow: auto;
+  padding: 10px 5px;
+}
+
+@media (max-width: 768px) { 
+  #main-area{
+    grid-template-columns: 1fr;
+  }
+ }
